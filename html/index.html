@@ -1,38 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
     <title>Home Page</title>
     <link rel="stylesheet" href="../css/index.css" />
   </head>
-
   <body>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+    </nav>
+
     <header>
-      <h1>Home Page</h1>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>Products</li>
-          <li>About</li>
-        </ul>
-      </nav>
+      <h2>Welcome to our page</h2>
+      <input type="text" placeholder="Search..." />
+      <button>Search</button>
     </header>
 
     <main>
-      <div>
-        <h2>Images</h2>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s
-        </p>
+      <div class="images">
         <img
-          src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
-          alt="Random Text"
+          src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a"
+          alt="Cactus"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1457545195570-67f207084966"
+          alt="Scarves"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1601361364311-950d35186297"
+          alt="Dolls"
         />
       </div>
+
+      <section class="description">
+        <h3>Description</h3>
+        <p>Description</p>
+      </section>
+
+      <section class="text">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+          voluptatum, expedita incidunt repellendus ad distinctio illo dolor id,
+          placeat nulla, temporibus possimus ducimus totam vel minus aliquam
+          molestias deserunt inventore.
+        </p>
+      </section>
     </main>
+
     <footer>
-      <p>All Rights Reserved.</p>
+      <p>© All rights reserved.</p>
     </footer>
   </body>
 </html>
