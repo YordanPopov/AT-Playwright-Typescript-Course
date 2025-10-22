@@ -31,4 +31,4 @@ const person2: PersonInfo = {
   },
 };
 
-console.log(person2.greeting?.());
+//console.log(person2.greeting?.());
