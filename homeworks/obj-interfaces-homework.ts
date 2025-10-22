@@ -27,7 +27,7 @@ const person2: PersonInfo = {
   phoneNumber: 9876543210,
   country: "USA",
   greeting: function (): string {
-    return `Welcome, ${person2.name} ${person2.lastName}!`;
+    return `Welcome, ${this.name} ${this.lastName}!`;
   },
 };
 
